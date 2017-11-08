@@ -5,7 +5,7 @@ function findMatching(thing, name){
     return newThing.toLowerCase() === name.toLowerCase();
    });
   }
-}
+
 
 function fuzzyMatch(){
 
