@@ -1,8 +1,6 @@
 // Code your solution in this file
 function findMatching(driver, str){
-  for (const user of driver) {
-let newDriver = [user]
-    return newDriver;
+  return driver.filter(function (driver) { return driver; });
   }
 }
 
