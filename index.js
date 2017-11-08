@@ -2,12 +2,17 @@
 function findMatching(thing, name){
   const newThing = [];
   return thing.filter(function (newThing) {
-    return name.toLowerCase() === newThing.toLowerCase();
+    return newThing.toLowerCase() === name.toLowerCase();
    });
   }
 
 
-function fuzzyMatch(){
+function fuzzyMatch(thing, letters){
+  const thing2 = [];
+  let nameLetters = letters.length;
+  return thing.filter(function (thing2){
+    return thing2.slice(0, nameLetters) === letters;
+  })
 
 }
 function matchName(){
