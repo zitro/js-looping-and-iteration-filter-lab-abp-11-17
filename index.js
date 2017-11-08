@@ -15,6 +15,16 @@ function fuzzyMatch(thing, letters){
   })
 
 }
-function matchName(){
-
+function matchName(thing, str){
+  const thing3 = [];
+  return thing.filter(function (thing3) {
+    return thing3;
+   });
 }
+
+/*This function takes an array of drivers and a string as arguments. 
+In this function, each element of the drivers array is a JavaScript 
+object that has a property of name. The function should return each 
+element whose name property matches the provided string argument.*/
+
+
