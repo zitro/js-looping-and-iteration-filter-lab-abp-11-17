@@ -15,10 +15,10 @@ function fuzzyMatch(thing, letters){
   })
 
 }
-function matchName(thing, str){
+function matchName(thing, name){
   const thing3 = [];
   return thing.filter(function (thing3) {
-    return thing3.str.toLowerCase() === str.toLowerCase();
+    return thing3.name.toLowerCase() === name.toLowerCase();
    });
 }
 
