@@ -1,6 +1,7 @@
 // Code your solution in this file
 function findMatching(thing, name){
-  return thing.filter(function (thing) { return thing; });
+const newthing = [];
+  return newthing.filter(function (thing) { return thing; });
   }
 }
 
