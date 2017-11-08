@@ -1,7 +1,9 @@
 // Code your solution in this file
 function findMatching(thing, name){
-const newthing = [];
-  return newthing.filter(function (thing) { return thing; });
+const newThing = [];
+  return newthing.filter(function (newThing) {
+    return newThing.toLowerCase() === name.toLowerCase();
+   });
   }
 }
 
